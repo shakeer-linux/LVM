@@ -10,6 +10,9 @@ LVM permits having one logical filesystem span multiple physical volumes and par
 * Logical volumes can span multiple physical volumes, enabling the use of filesystems that are larger than one physical disk.
 * Additional storage can be added to existing filesystems *--for example, you can add a new disk drive and add that storage space to the home filesystem.
 * Data can be migrated from one drive to other.
+* You can create a (read-only) snapshot of any LV. You can revert the original LV to the snapshot at a later time, or delete the snapshot if you no longer need it. This is handy for server backups for instance (you cannot stop all your applications from writing, so you create a snapshot and backup the snapshot LV), but can also be used to provide a "safety net" before a critical system upgrade (clone the root partition, upgrade, revert if something went wrong).
+
+You can think of LVM as "dynamic partitions", meaning that you can create/resize/delete LVM "partitions" (they're called "Logical Volumes" in LVM-speak) from the command line while your Linux system is running: no need to reboot the system to make the kernel aware of the newly-created or resized partitions.
 
 #### i) Adding a Logical Volume:
 
