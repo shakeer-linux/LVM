@@ -1,9 +1,9 @@
 
 **LVM**    
-Logical volume mangaer is widely used technique for deploying logical rather than physical storage. With LVM "logical" partitons can span across physical harddrive and can be resized.
+**L**ogical **V**olume **M**angaer is widely used technique for deploying logical rather than physical storage. With LVM "logical" partitons can span across physical harddrive and can be resized.   
 
 
-(Logical Volume Management) permits having one logical filesystem span multiple physical volumes and partitions while appearing as a simple partition for normal usage. Disk partitions are converted into physical volumes and multiple physical volumes are grouped into a volume group. Then the volume group is subdivided into logical volumes.
+LVM permits having one logical filesystem span multiple physical volumes and partitions while appearing as a simple partition for normal usage. Disk partitions are converted into physical volumes and multiple physical volumes are grouped into a volume group. Then the volume group is subdivided into logical volumes.
 
 #### i) Adding a Logical Volume:
 
