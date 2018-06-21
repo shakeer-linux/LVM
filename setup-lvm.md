@@ -5,6 +5,12 @@
 
 LVM permits having one logical filesystem span multiple physical volumes and partitions while appearing as a simple partition for normal usage. Disk partitions are converted into physical volumes and multiple physical volumes are grouped into a volume group. Then the volume group is subdivided into logical volumes.
 
+
+* Logical volumes can be resized, enabling you to shift space between filesystem without reinstalling the system.  
+* Logical volumes can span multiple physical volumes, enabling the use of filesystems that are larger than one physical disk.
+* Additional storage can be added to existing filesystems *--for example, you can add a new disk drive and add that storage space to the home filesystem.
+* Data can be migrated from one drive to other.
+
 #### i) Adding a Logical Volume:
 
 Create two logical partitions inside an extended partition and set type to 8e:
