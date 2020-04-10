@@ -126,3 +126,9 @@ lvdisplay | lvs: Display information about a logical volume
 lvscan | lvmdiskscan: List all logical volumes in all volume groups
 lvrename VG LV  LV_new: Rename logical volume name
 ```
+
+
+## References:
+
+### https://www.linuxtechi.com/reduce-size-lvm-partition/
+### https://www.linuxtechi.com/extend-lvm-partitions/
