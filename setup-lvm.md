@@ -130,5 +130,8 @@ lvrename VG LV  LV_new: Rename logical volume name
 
 ## References:
 
+#### Reduce LVM:
 ### https://www.linuxtechi.com/reduce-size-lvm-partition/
+
+#### Extending LVM
 ### https://www.linuxtechi.com/extend-lvm-partitions/
